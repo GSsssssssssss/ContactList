@@ -1,0 +1,48 @@
+.nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-image: radial-gradient(rgb(128, 81, 237), #007bff);
+}
+
+.nav > button{
+    border-radius: 10px;
+    width: 100px;
+    background-color: red;
+    color: antiquewhite;
+    margin-right: 10px;
+}
+
+.nav > h2{
+    font-family:  'Times New Roman', Times, serif;
+    color: rgb(209, 211, 48);
+    margin-left: 20px;
+}
+
+.nav_content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_content > img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.nav_content > button{
+    border-radius: 10px;
+    width: 100px;
+    height: fit-content;
+    background-color: red;
+    color: antiquewhite;
+    cursor: pointer;
+}

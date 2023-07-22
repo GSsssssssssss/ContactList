@@ -1,0 +1,8 @@
+ {/* <input type="checkbox" />
+               <label>{contacts.firstName} {contacts.lastName} - {contacts.phoneNumber} -{" "}
+                       {contacts.email} </label>     */}
+                {/* <div >
+                <h2>{contacts.firstName} {contacts.lastName}</h2>
+                <h4>{contacts.phoneNumber}</h4>
+                     
+                </div> */}
